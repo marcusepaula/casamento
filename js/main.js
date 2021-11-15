@@ -3,7 +3,7 @@
   
 /* 1. Proloder */
     $(window).on('load', function () {
-      $('#Preloader').remove();
+      $('.Loader').remove();
       $('body').delay(450).css({
         'overflow': 'visible'
       });
